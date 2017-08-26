@@ -19,3 +19,4 @@ if dc_enum_choice==y; then
 	for x in $dc_name; do enum4linux -a $x > $enum_loc/dc_enum_$x; done
 else
 	exit
+fi
